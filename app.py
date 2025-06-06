@@ -4,7 +4,7 @@ import numpy as np
 import tensorflow as tf
 import os
 import gdown
-from preprocess import preprocess_image
+from preprocess_utils import preprocess_image
 from PIL import Image
 
 # --- Tải mô hình từ Google Drive nếu chưa có ---
