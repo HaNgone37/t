@@ -26,7 +26,7 @@ def load_model():
     model_path = "hand_sign_cnn_model.h5"
     if not os.path.exists(model_path):
         file_id = "1-qtMLem63El7msIK84PzMmMTvgyr9T1_"
-        gdown.download(f"https://drive.google.com/uc?id={file_id}", model_path, quiet=False)
+        gdown.download(f"https://drive.google.com/uc?id={file_id}", model_path, quiet=False, fuzzy=True)
     return tf.keras.models.load_model(model_path)
 
 # Tiền xử lý ảnh
