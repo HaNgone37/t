@@ -54,11 +54,11 @@ st.markdown("""
 
 st.markdown("---")
 
-uploaded_file = st.file_uploader("📤 Tải ảnh ký hiệu tay (jpg, png)", type=["jpg", "jpeg", "png"])
+uploaded_file = st.file_uploader("Tải ảnh ký hiệu tay (jpg, png)", type=["jpg", "jpeg", "png"])
 
-# Nút thử lại
-if st.button("🔁 Làm mới"):
-    st.experimental_rerun()
+# # Nút thử lại
+# if st.button("🔁 Làm mới"):
+#     st.experimental_rerun()
 
 if uploaded_file:
     st.image(uploaded_file, caption="Ảnh bạn đã chọn", width=300)
@@ -78,7 +78,7 @@ if uploaded_file:
     # Hiển thị kết quả
     st.markdown(f"""
         <h2 style='text-align:center;'>
-            🔤 Dự đoán: <span style='color:#4CAF50'>{LABELS[pred_index]}</span> 
+            Dự đoán: <span style='color:#4CAF50'>{LABELS[pred_index]}</span> 
             (Độ tin cậy: {confidence:.2f})
         </h2>
         """, unsafe_allow_html=True)
