@@ -11,7 +11,13 @@ import gdown
 MODEL_ID = "1-qtMLem63El7msIK84PzMmMTvgyr9T1_"  # Google Drive file ID
 MODEL_PATH = "hand_sign_cnn_model.h5"
 IMG_SIZE = 224
-LABELS = sorted(os.listdir("./data"))  # Cùng thứ tự như khi train
+#LABELS = sorted(os.listdir("./data"))  # Cùng thứ tự như khi train
+LABELS = [
+    'A', 'B', 'C', 'D', 'del', 'E', 'F', 'G', 'H', 'I', 'J',
+    'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T',
+    'U', 'V', 'W', 'X', 'Y', 'Z', 'space'
+]
+
 
 # ==== TẢI MODEL ====
 @st.cache_resource
