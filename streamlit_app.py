@@ -49,7 +49,7 @@ st.set_page_config(page_title="Nhận diện ký hiệu tay", layout="centered")
 
 st.markdown("""
     <h1 style='text-align: center; color: #ff4b4b;'>🤟 Nhận diện Ký hiệu Tay bằng CNN</h1>
-    <p style='text-align: center;'>Tải lên ảnh ký hiệu tay để dự đoán chữ cái. Ứng dụng sử dụng TensorFlow + Streamlit Cloud.</p>
+    <p style='text-align: center;'>Tải lên ảnh ký hiệu tay để dự đoán chữ cái.</p>
     """, unsafe_allow_html=True)
 
 st.markdown("---")
