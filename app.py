@@ -63,7 +63,7 @@ st.set_page_config(page_title="Nhận diện tay", layout="centered")
 labels = list("ABCDEFGHIJKLMNOPQRSTUVWXYZ") + ["del", "space"]
 
 st.markdown("""
-    <h1 style='text-align: center; font-size: 48px;'>🤟 Nhận diện Ký hiệu Tay bằng <span style='color:#ff4b4b'>CNN</span></h1>
+    <h1 style='text-align: center; font-size: 48px;'>Nhận diện Ký hiệu Tay bằng <span style='color:#ff4b4b'>CNN</span></h1>
     <p style='text-align: center; font-size: 18px;'>Upload ảnh bàn tay để dự đoán ký hiệu.<p>
     """, unsafe_allow_html=True)
 
